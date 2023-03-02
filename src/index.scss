@@ -1,0 +1,60 @@
+h1 {
+    font-size: 4.5rem;
+    font-weight: 600; // semi bold
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Playfair Display", serif;
+
+    header {
+        margin: 7.5vh 20% 10vh;
+        text-align: center;
+
+        span {
+            color: yellow;
+        }
+    }
+
+    main {
+        margin: 10vh 10%;
+        display: flex;
+
+        & > * { // all direct children 
+            float: left;
+            margin: 1rem 3%;
+            width: 100%;
+        }
+
+        .Network {
+            width: auto;
+        }
+
+        .Output h3 {
+            margin: 40% 0 20%;
+
+            span {
+                color: yellow;
+                font-size: 7rem;
+            }
+        }
+    }
+
+    footer {
+        margin: 10vh 20% 0;
+        text-align: center;
+
+        span {
+            color: yellow;
+        }
+    }
+}
