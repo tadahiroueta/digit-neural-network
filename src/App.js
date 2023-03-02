@@ -100,6 +100,13 @@ export default function App() {
     isDrawing.current = false
   }
 
+  /** Clears input */
+  const handleClick = () => { 
+    setInput(Array(28).fill(0).map(() => Array(28).fill(0)))
+    setActivation(circles.map(column => column.map(() => 0)))
+    setOutput("?")
+  }
+
   return (
     <div className="App">
       <header>
@@ -149,6 +156,9 @@ export default function App() {
         </Stage>
 
         <div className='Output'>
+          <button onClick={handleClick}>
+            <h3>←</h3>
+          </button>
           <h3>&emsp;{">>>"}&emsp;<span>{output}</span></h3>
         </div>
       </main>

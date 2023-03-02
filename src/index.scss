@@ -39,14 +39,32 @@ body {
             width: auto;
         }
 
-        .Output h3 {
-            margin: 40% 0 20%;
+        .Output {
+            
+            button {
+                float: right;
+                border: 1px solid yellow;
+                // padding: 2rem;
+                width: min-content;
+                height: min-content;
+                background-color: black;
 
-            span {
-                color: yellow;
-                font-size: 7rem;
+                h3 {
+                    margin: 0 1rem;
+                    color: white;
+                }
             }
-        }
+
+            > h3 {
+                margin: 20% 0;
+                height: min-content;
+                
+                span {
+                    color: yellow;
+                    font-size: 7rem;
+                }
+            }
+        } 
     }
 
     footer {
