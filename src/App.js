@@ -1,5 +1,6 @@
 import { useState, useRef } from 'react';
 import { Stage, Layer, Circle, Line, Text, Rect } from 'react-konva';
+import { isMobile } from 'react-device-detect';
 import NeuralNetwork from './NeuralNetwork';
 
 const circles = require('./data/circles.json');
@@ -21,6 +22,9 @@ const network = new NeuralNetwork(weights, biases);
 const distance = (pointA, pointB) => Math.sqrt(Math.pow(pointA.x - pointB.x, 2) + Math.pow(pointA.y - pointB.y, 2));
 
 export default function App() {
+  if (isMobile) return <h1>Sorry, this app is not available on mobile devices</h1>
+
+
   // as a matrix
   const [input, setInput] = useState(Array(28).fill(0).map(() => Array(28).fill(0))); 
   const [activation, setActivation] = useState(circles.map(column => column.map(() => 0)));
