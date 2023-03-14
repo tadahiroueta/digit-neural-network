@@ -22,9 +22,6 @@ const network = new NeuralNetwork(weights, biases);
 const distance = (pointA, pointB) => Math.sqrt(Math.pow(pointA.x - pointB.x, 2) + Math.pow(pointA.y - pointB.y, 2));
 
 export default function App() {
-  if (isMobile) return <h1>Sorry, this app is not available on mobile devices</h1>
-
-
   // as a matrix
   const [input, setInput] = useState(Array(28).fill(0).map(() => Array(28).fill(0))); 
   const [activation, setActivation] = useState(circles.map(column => column.map(() => 0)));
@@ -111,7 +108,8 @@ export default function App() {
     setOutput("?")
   }
 
-  return (
+  return isMobile ? 
+    <p className='Mobile'>Sorry, this app is not available on <span>mobile devices</span>.</p> : (
     <div className="App">
       <header>
         <h1><span>Digit</span> Neural Network</h1>
