@@ -1,5 +1,5 @@
-# Repository Name
-***Short description of the repository***
+# Digit Neural Network
+***My DIY Neural Network trained to identify single digits***
 
 [Visit Website](https://digit.tadahiroueta.com) · [Built With](#built-with) · [Features](#features) · [Usage](#usage)
 
