@@ -14,33 +14,34 @@
 - ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
 ## Features
-- Machine-learning AI made to recognise digits
-  - I programmed the neural network from scratch without any ML libraries
-      > I wanted to really understand how it works from the inside and out
 
-  - It was trained from this [sample](https://github.com/mnielsen/neural-networks-and-deep-learning)
-      > Disclaimer: the AI sucks.
-      >
-      > It was either because it got overfitted to the training data or because the training data and the grid input were made with different UIs.
+### Machine-learning AI made to recognise digits
+I programmed the neural network from scratch without any ML libraries
+    > I wanted to really understand how it works from the inside and out
 
-  ![weights](https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/weights.png)
+It was trained from this [sample](https://github.com/mnielsen/neural-networks-and-deep-learning)
+    > Disclaimer: the AI sucks.
+    >
+    > It was either because it got overfitted to the training data or because the training data and the grid input were made with different UIs.
 
-  > Raw JSON data on weights used by the network
+![weights](https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/weights.png)
 
-- Input grid to draw digits with cursor
-  - Based on (React) [Konva](https://konvajs.org/docs/react/Intro.html)'s geometric components
-      > Not accessible for mobile devices; touch screens are too hard
+> Raw JSON data on weights used by the network
 
-  <br>
-  <img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/input-grid.png" alt="input-grid" width="50%" />
-  <br>
+### Input grid to draw digits with cursor
+Based on (React) [Konva](https://konvajs.org/docs/react/Intro.html)'s geometric components
+    > Not accessible for mobile devices; touch screens are too hard
 
-- Dynamic preview of the neural network
-  - Activate nodes and stronger weights are displayed brighter with [Konva](https://konvajs.org/docs/react/Intro.html) 
+<br>
+<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/input-grid.png" alt="input-grid" width="50%" />
+<br>
 
-  <br>
-  <img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/neural-network.png" alt="neural-network" width="50%" />
-  <br>
+### Dynamic preview of the neural network
+Activate nodes and stronger weights are displayed brighter with [Konva](https://konvajs.org/docs/react/Intro.html) 
+
+<br>
+<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/neural-network.png" alt="neural-network" width="50%" />
+<br>
 
 ## Usage
 
