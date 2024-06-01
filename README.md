@@ -33,14 +33,14 @@ Based on (React) [Konva](https://konvajs.org/docs/react/Intro.html)'s geometric 
     > Not accessible for mobile devices; touch screens are too hard
 
 <br>
-<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/input-grid.png" alt="input-grid" width="50%" />
+<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/input-grid.png" alt="input-grid" width="376rem" />
 <br>
 
 ### Dynamic preview of the neural network
 Activate nodes and stronger weights are displayed brighter with [Konva](https://konvajs.org/docs/react/Intro.html) 
 
 <br>
-<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/neural-network.png" alt="neural-network" width="50%" />
+<img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/neural-network.png" alt="neural-network" width="376rem" />
 <br>
 
 ## Usage
