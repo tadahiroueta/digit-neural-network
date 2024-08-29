@@ -30,7 +30,7 @@ It was trained from this [sample](https://github.com/mnielsen/neural-networks-an
 
 ### Input grid to draw digits with cursor
 Based on (React) [Konva](https://konvajs.org/docs/react/Intro.html)'s geometric components
-    > Not accessible for mobile devices; touch screens are too hard
+> Not accessible for mobile devices; touch screens are too hard
 
 <br>
 <img src="https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/input-grid.png" alt="input-grid" width="376rem" />
