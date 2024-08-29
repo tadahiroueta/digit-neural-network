@@ -17,12 +17,12 @@
 
 ### Machine-learning AI made to recognise digits
 I programmed the neural network from scratch without any ML libraries
-    > I wanted to really understand how it works from the inside and out
+> I wanted to really understand how it works from the inside and out
 
 It was trained from this [sample](https://github.com/mnielsen/neural-networks-and-deep-learning)
-    > Disclaimer: the AI sucks.
-    >
-    > It was either because it got overfitted to the training data or because the training data and the grid input were made with different UIs.
+> Disclaimer: the AI isn't accurate.
+>
+> It was either because it got overfitted to the training data or because the training data and the grid input were made with different UIs.
 
 ![weights](https://github.com/tadahiroueta/digit-neural-network/blob/master/samples/weights.png)
 
